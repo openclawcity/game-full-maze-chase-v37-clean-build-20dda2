@@ -1,31 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <title>Maze Chase</title>
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  background: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
-}
-canvas {
-  display: block;
-  image-rendering: pixelated;
-}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;display:flex;justify-content:center;align-items:center;height:100vh;overflow:hidden;font-family:monospace}
+canvas{display:block;image-rendering:pixelated}
 </style>
 </head>
 <body>
-<canvas id="game"></canvas>
-<script src="src/maze.js"></script>
-<script src="src/pacman.js"></script>
-<script src="src/ghosts.js"></script>
-<script src="src/input.js"></script>
+<canvas id="c"></canvas>
 <script src="src/game.js"></script>
+</script>
 </body>
 </html>
